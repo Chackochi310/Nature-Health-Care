@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.work-background-main{
+    background-image: url('./assets/images/work/background.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 25px;
+
+}
+
+.work-background-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #164D92;
+}
+
+.image-work-card{
+    position: relative;
+}
+.image-work-card::after{
+    content: "";
+    background-image: url('./assets/images/work/curved-arrow.svg');
+    width: 100px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+@media (max-width: 1150px) {
+    .image-work-card::after{
+        background-image: none;
+    }
+    
+}
+
+.image-work-card-second{
+    position: relative;
+}
+.image-work-card-second::after{
+    content: "";
+    background-image: url('./assets/images/work/down-curved-arrow.svg');
+    width: 100px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+@media (max-width: 1150px) {
+    .image-work-card-second::after{
+        background-image: none;
+    }
+    
+}
+
+.work-inner-image-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.overlap-round{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #04CE78;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 65%;
+}
+
+.image-border-work{
+    border: 3px solid #04CE78 ;
+    border-radius: 50%;
+    
+}
+
+.overlap-round-count{
+    font-size: 22.5px;
+    font-weight: 700;
+    color: #FFF;
+   
+}
+.new-over-lap-bg{
+    background-color:#164D92;
+    
+}
+.change-border-color{
+border-color: 3px solid #164D92;
+}
+
+.last-image-card::after{
+    background-image: none;
+}
+
+.content-work-below{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+   
+}
+
+.content-work-heading-txt{
+    font-size: 18px;
+    font-weight: 700;
+    color: #164D92;
+    text-align: center;
+}
+
+.work-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content-work-discription-txt{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #000;
+    text-align: center;
+    margin-top: 5px;
+
+}

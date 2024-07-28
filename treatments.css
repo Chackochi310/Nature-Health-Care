@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.treatment-provided-main-container{
+    background-image: url('./assets/images/provides/provide-background.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-mainbox-treatments{
+
+}
+
+.small-heaidng-treatments-txt{
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.small-heading-treatment-horixontal{
+    width: 121px;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+
+.main-heading-treatments{
+    font-size: 20px;
+    color: #164289;
+    font-weight: 700;
+    max-width: 450px;
+
+}
+.treatment-provided-list{
+    margin-top: 20px;
+   margin-left: 50px;
+}
+.treatment-list-txt{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36.31px;
+}
+
+.main-outlinebox-treatments{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.right-treatment-section{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 40px;
+}
+
+.image-nurse-2{
+    margin-top: 10rem;
+}
+
+
+@media (max-width: 1200px) {
+    .main-outlinebox-treatments {
+        gap: 50px;
+    }
+
+    .main-heading-treatments {
+        font-size: 18px;
+    }
+
+    .treatment-list-txt {
+        font-size: 18px;
+    }
+}
+
+/* For medium devices (tablets, 992px and up) */
+@media (max-width: 992px) {
+    .main-outlinebox-treatments {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .right-treatment-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .treatment-provided-list {
+        margin-left: 20px;
+    }
+
+    .main-heading-treatments {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .treatment-list-txt {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+/* For small devices (landscape phones, 768px and up) */
+@media (max-width: 768px) {
+    .main-outlinebox-treatments {
+        gap: 20px;
+    }
+
+    .small-heaidng-treatments-txt {
+        font-size: 14px;
+    }
+
+    .main-heading-treatments {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .treatment-list-txt {
+        font-size: 14px;
+    }
+
+    .image-nurse-2 {
+        margin-top: 5rem;
+    }
+}
+
+/* For extra small devices (phones, less than 768px) */
+@media (max-width: 576px) {
+    .treatment-provided-main-container {
+        padding: 20px;
+    }
+
+    .main-heading-treatments {
+        font-size: 12px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .treatment-list-txt {
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .treatment-provided-list {
+        margin-left: 0;
+    }
+
+    .main-outlinebox-treatments {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .right-treatment-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .image-nurse-2 {
+        margin-top: 2rem;
+    }
+}

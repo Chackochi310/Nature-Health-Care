@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.section-speciality-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.main-container-speciality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.header-speciality{
+    font-size: 20px;
+    font-weight: 700;
+    color: #164289;
+}
+
+.header-speciality-txt-horizontal-line{
+    width: 152px;
+    height: 3px;
+    background-color: #164289;
+}
+
+.header-sub-contents{
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.header-sub-content-txt-speciality{
+    font-size: 15px;
+    font-weight: 200;
+    color: #000;
+}
+
+.specialities-details-content-info-txt{
+    max-width: 500px;
+}
+
+.specilaities-details-main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.specialities-details-image{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.specialities-details-content-headidng-txt{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.specialities-details-content-info-text{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.right-section-specificity-image{
+    position: relative;
+    margin-top: 40px;
+}
+.img-baby-born{
+    display: block;
+    border-radius: 10%;
+    height: 548px;
+    width: 561px;
+}
+
+.right-section-speciality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer-play-button-ciricle{
+position: absolute;
+bottom: 50px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background-color: #fff;
+}
+
+
+@media (max-width: 1200px) {
+    .header-speciality {
+        font-size: 18px;
+    }
+
+    .header-sub-content-txt-speciality,
+    .specialities-details-content-info-text {
+        font-size: 14px;
+    }
+
+    .img-baby-born {
+        height: 500px;
+        width: 500px;
+    }
+
+    .outer-play-button-ciricle {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* For medium devices (tablets, 992px and up) */
+@media (max-width: 992px) {
+    .main-container-speciality {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .specilaities-details-main-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-speciality {
+        font-size: 16px;
+    }
+
+    .header-sub-content-txt-speciality,
+    .specialities-details-content-info-text {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .img-baby-born {
+        height: 450px;
+        width: 450px;
+    }
+
+    .outer-play-button-ciricle {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/* For small devices (landscape phones, 768px and up) */
+@media (max-width: 768px) {
+    .header-speciality {
+        font-size: 14px;
+    }
+
+    .header-speciality-txt-horizontal-line {
+        width: 120px;
+    }
+
+    .header-sub-content-txt-speciality,
+    .specialities-details-content-info-text {
+        font-size: 12px;
+    }
+
+    .img-baby-born {
+        height: 400px;
+        width: 400px;
+    }
+
+    .outer-play-button-ciricle {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* For extra small devices (phones, less than 768px) */
+@media (max-width: 576px) {
+    .section-speciality-main-container {
+        padding: 20px;
+    }
+
+    .header-speciality {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .header-sub-content-txt-speciality,
+    .specialities-details-content-info-text {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .header-speciality-txt-horizontal-line {
+        width: 100px;
+    }
+
+    .img-baby-born {
+        height: 350px;
+        width: 350px;
+    }
+
+    .outer-play-button-ciricle {
+        width: 35px;
+        height: 35px;
+    }
+}

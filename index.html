@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Health Care Hospital</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="main.css" rel="stylesheet">
+    <link href="banner.css" rel="stylesheet">
+    <link href="about.css" rel="stylesheet">
+    <link href="bannersm.css" rel="stylesheet">
+    <link href="work.css" rel="stylesheet">
+    <link href="treatments.css" rel="stylesheet">
+    <link href="speciality.css" rel="stylesheet">
+    <link href="queston.css" rel="stylesheet">
+    <link href="client.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section Begins Here -->
+
+    <header class="">
+        <div class="header-main-section header-first-top">
+            <div class="contents-header-top">
+                <p class="contents-text-head-top">Need Help ?</p>
+                <p class="contents-text-head-top">Careers</p>
+                <p class="contents-text-head-top">Contact Us</p>
+                <p class="contents-text-head-top">Leave Feedback</p>
+            </div>
+        </div>
+        <div class="header-sub-section header-sec-top">
+            <div class="header-sub-sec">
+                <div class="header-sub-sec-left">
+                    <img src="./assets/images/header/logo.svg" alt="image of logo of hospital"/>
+                    <div class="hospital-name-text-box">
+                        <h1 class="hospital-name-text">Natural Health
+                            <span class="hospital-name-text-sm">Care Hospital</span>
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="header-sub-sec-right">
+                    <div class="small-cards">
+                        <div class="card-image">
+                            <img src="./assets/images/header/home_health.svg"/>
+                        </div>
+                        <div class="card-contents next-doc arrow-cards">
+                            <h4 class="card-content-text-lg " id="doctor-name">Dr. PM. Ravi kumar</h4>
+                            <p class="card-content-text-lg " id="specialization">Treatment Methodology</p>
+                        </div>
+                        <div class="arrow-cards" onclick="updateDoctorAndSpecialization()">
+                            <img src="./assets/images/header/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="small-cards">
+                        <div class="card-image">
+                            <img src="./assets/images/header/Group.svg"/>
+                        </div>
+                        <div class="card-contents">
+                            <h4 class="card-content-text-lg">Spine </h4>
+                            <p class="card-content-text-lg">Conditions</p>
+                        </div>
+                        <div class="arrow-cards arrow-rotate">
+                            <img src="./assets/images/header/arrow.svg"/>
+                        </div>
+                        
+                    </div>
+                    <div class="small-cards">
+                        <div class="card-image">
+                            <img src="./assets/images/header/lab_profile.svg"/>
+                        </div>
+                        <div class="card-contents">
+                            <h4 class="card-content-text-lg">MRI</h4>
+                            <p class="card-content-text-lg">Reports</p>
+                        </div>
+                        <div class="arrow-cards arrow-rotate">
+                            <img src="./assets/images/header/arrow.svg"/>
+                        </div>
+                    </div>
+                    <div class="small-cards">
+                        <div class="card-image">
+                            <img src="./assets/images/header/groups.svg"/>
+                        </div>
+                        <div class="card-contents">
+                            <h4 class="card-content-text-lg">Book an</h4>
+                            <p class="card-content-text-lg">Appointment</p>
+                        </div>
+                    </div>
+                    <div class="small-cards">
+                        <div class="card-image round-container">
+                            <img src="./assets/images/header/call.svg"/>
+                        </div>
+                        <div class="card-contents">
+                            <h4 class="card-content-text-lg">Call us</h4>
+                        </div>
+                        <div class="arrow-cards arrow-rotate">
+                            <img src="./assets/images/header/arrow.svg"/>
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+        <nav class="header-main-section header-last-btm">
+            <div class="contents-header-bottom">
+                <p class="contents-text-head-bottom">Home</p>
+                <p class="contents-text-head-bottom">About Us</p>
+                <p class="contents-text-head-bottom">Facilities</p>
+                <p class="contents-text-head-bottom">Our Team</p>
+                <p class="contents-text-head-bottom">Gallery</p>
+                <p class="contents-text-head-bottom">Testimonials</p>
+                <p class="contents-text-head-bottom">Media</p>
+                <p class="contents-text-head-bottom">Contact</p>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header SectionEnd Point -->
+
+
+    <!-- Bnnner Section Start Point -->
+    <section class="banner-main">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="./assets/images/banner/banner.png" alt="Banner Image 1">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/banner/banner.png" alt="Banner Image 2">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/banner/banner.png" alt="Banner Image 3">
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/banner/banner.png" alt="Banner Image 4">
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End point -->
+
+    <!-- About Section Start Point -->
+     
+    <section class="about-main-container">
+        <div class="about-firs-container">
+            <div class="about-cards">
+                <div class="image-container-about-cards">
+                    <img src="./assets/images/about/guardian.svg"/>
+                </div>
+                <div class="about-cards-contents-heading">
+                    <h2>Discover our Specialties</h2>
+                </div>
+                <div class="about-cards-small-text">
+                    <p>From non-surgical slipped disc treatmentsto 
+                        innovativemedicine less techniques,we
+                        offer guaranteed results tailored to your needs.</p>
+                </div>
+            </div>
+            <div class="about-cards">
+                <div class="image-container-about-cards">
+                    <img src="./assets/images/about/lab_profile.svg"/>
+                </div>
+                <div class="about-cards-contents-heading">
+                    <h2>Experience the Difference</h2>
+                </div>
+                <div class="about-cards-small-text">
+                    <p>Our Eco-Friendly Atmosphere provides
+                        a calming and hygienic environment 
+                        essential for your well-being.</p>
+                </div>
+            </div>
+            <div class="about-cards">
+                <div class="image-container-about-cards">
+                    <img src="./assets/images/about/medication.svg"/>
+                </div>
+                <div class="about-cards-contents-heading">
+                    <h2>Get Proper Guidance</h2>
+                </div>
+                <div class="about-cards-small-text">
+                    <p>Let us guide you in the right direction 
+                        for a complete cure, ensuring your journey to 
+                        recovery is smooth and successful.</p>
+                </div>
+            </div>
+            <div class="about-cards">
+                <div class="image-container-about-cards">
+                    <img src="./assets/images/about/dew_point.svg"/>
+                </div>
+                <div class="about-cards-contents-heading">
+                    <h2>Non-Invasive Spinal Care</h2>
+                </div>
+                <div class="about-cards-small-text">
+                    <p>Trust in our expertise to provide modern
+                        treatment solutions without the need for
+                        invasive procedures or medication.</p>
+                </div>
+            </div>
+        </div>
+        <div class="second-container-about-us">
+            <div class="left-section-about-us">
+                <div class="left-section-heading">
+                    <h1 class="welcome-txt">Welcome to</h1>
+                    <h1 class="hospital-name-welcome">Natural Health Care Center</h1>
+                    <hr class="horizontal-line" />
+                </div>
+                <div class="left-content-section">
+                    <p>     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nibh eget ex tincidunt accumsan. Sed lectus mauris, efficitur eu libero non, dignissim scelerisque ligula. Morbi tincidunt varius augue, sed sagittis tortor dignissim ac. Integer libero dui, hendrerit id convallis sit amet, tempor vel lacus. Sed nec iaculis nulla. Donec sit amet leo ac tellus imperdiet dignissim. Mauris diam tortor, mollis ut massa eu, suscipit accumsan odio. Praesent euismod erat lobortis eros ullamcorper, sit amet suscipit mauris congue. Sed sollicitudin egestas hendrerit. In gravida auctor justo in sodales. Praesent euismod erat lobortis eros ullamcorper, sit amet suscipit mauris congue. Sed sollicitudin egestas hendrerit. In gravida auctor justo in sodales.</p>
+                </div>
+            </div>
+
+            <div class="right-section-about-us">
+                <div class="right-section-about">
+                  <div class="right-inner-rectangle">
+                    <img src="./assets/images/about/doctor.png" class="doctor-image-abour-us"/>
+                  </div>
+                  <div class="doctor-name-image">
+                    <h4 class="doctor-name-image-about-us" >DR. RV Delisia (M.D) facial plastic & Surgery</h4>
+                    <p class="doctor-detials-abour-us">PG Dip in Manual Therapy, RIPT.12345
+                        Reconstructive Surgeries
+                        Natural Health Care Centre</p>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section End Point -->
+
+    <!-- Hospital small banner section startpoint -->
+    <section class="small-banner-main-box">
+        <div class="overlay-snamll-banner"></div>
+        <div class="small-banner-content-main-box">
+            <div class="small-banner-left">
+                <p class="small-banner-text-head">AT GSCC</p>
+                <hr class="banner-left-horizontal-line-small"/>
+                <div class="small-banner-lg-text">
+                    <h2 class="small-banner-text-larger">
+                        WE PROVIDE ADVANCED
+                        NON-INVASIVE TREATMENT
+                        FOR DISC BULGE, BACK & NECK PAIN
+                    </h2>
+                </div>
+            </div>
+            <div class="small-banner-right">
+
+                <div class="small-banner-right-cards">
+                    <div class="small-banner-right-image">
+                        <img src="./assets/images/small-banner/ecg_heart.svg" alt="image of ecg heart"/>
+                    </div>
+                    <div class="small-banner-right-count">
+                        <p class="text-right-small-banner">10 + </p>
+                    </div>
+                    <div class="small-banner-right-txt small-banner-right-count">
+                        <p class="text-right-small-banner">YEAR EXPERIENCE</p>
+                    </div>
+                </div>
+                <div class="small-banner-right-cards">
+                    <div class="small-banner-right-image">
+                        <img src="./assets/images/small-banner/mood.svg" alt="image of ecg heart"/>
+                    </div>
+                    <div class="small-banner-right-count">
+                        <p class="text-right-small-banner"id="counter">0 </p>
+                    </div>
+                    <div class="small-banner-right-txt small-banner-right-count">
+                        <p class="text-right-small-banner">HAPPY PATIENTS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hospital Small banner endpoint -->
+
+
+    <!-- Work Section Starting point -->
+
+    <section class="work-background-main">
+        <div class="work-background-title">
+            <h2 class="work-background-title-txt">How We Works</h2>
+        </div>
+        <div class="work-inner-image-contents">
+            <div class="work-cards">
+                <div class="image-work-card">
+                    <img class="image-border-work" src="./assets/images/work/Ellipse-15.png" alt="image in work cards"/>
+                    <div class="overlap-round">
+                        <h4 class="overlap-round-count">01</h4>
+                    </div>
+                </div>
+                <div class="content-work-below">
+                    <div class="content-work-heading">
+                        <p class="content-work-heading-txt">content-work-heading</p>
+                    </div>
+                    <div class="content-work-discription">
+                        <p class="content-work-discription-txt">
+                            We conduct a comprehensive review of your medical history and symptoms to tailor the consultation to your needs.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-cards">
+                <div class="image-work-card-second">
+                    <img class="image-border-work change-border-color" src="./assets/images/work/Ellipse-16.png" alt="image in work cards"/>
+                    <div class="overlap-round new-over-lap-bg">
+                        <h4 class="overlap-round-count ">02</h4>
+                    </div>
+                </div>
+                <div class="content-work-below">
+                    <div class="content-work-heading">
+                        <p class="content-work-heading-txt">Patient Registration</p>
+                    </div>
+                    <div class="content-work-discription">
+                        <p class="content-work-discription-txt">
+                            Efficiently register your details to ensure a smooth and personalized experience from the start.
+
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-cards">
+                <div class="image-work-card">
+                    <img class="image-border-work" src="./assets/images/work/Ellipse-17.png" alt="image in work cards"/>
+                    <div class="overlap-round">
+                        <h4 class="overlap-round-count">03</h4>
+                    </div>
+                </div>
+                <div class="content-work-below">
+                    <div class="content-work-heading">
+                        <p class="content-work-heading-txt">Diagnostic Review</p>
+                    </div>
+                    <div class="content-work-discription">
+                        <p class="content-work-discription-txt">
+                            Our experts meticulously analyze your diagnostic reports to craft a precise treatment plan.
+
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-cards">
+                <div class="image-work-card last-image-card new-arrow">
+                    <img class="image-border-work change-border-color" src="./assets/images/work/Ellipse-18.png" alt="image in work cards"/>
+                    <div class="overlap-round new-over-lap-bg">
+                        <h4 class="overlap-round-count ">04</h4>
+                    </div>
+                </div>
+                <div class="content-work-below">
+                    <div class="content-work-heading">
+                        <p class="content-work-heading-txt">Personalized Care</p>
+                    </div>
+                    <div class="content-work-discription">
+                        <p class="content-work-discription-txt">
+                            Receive customized treatment options designed to address your specific spine health needs effectively.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Work Section Endpoint -->
+
+    <!-- Treatment provided for starting point -->
+
+    <section class="treatment-provided-main-container">
+        <div class="main-outlinebox-treatments">
+            <div class="left-mainbox-treatments">
+                <div class="small-heading">
+                    <h5 class="small-heaidng-treatments-txt">AT GSCC</h5>
+                    <hr class="small-heading-treatment-horixontal" />
+                </div>
+                <div class="main-heading-treatments">
+                    <h1 class="main-heading-treatments-txt">
+                        We Provide Advanced
+                        Non- Surgical Treatment For
+                    </h1>
+                </div>
+                <div class="tratments-list">
+                    <ul class="treatment-provided-list">
+                        <li class="treatment-list-txt">Intervertebral Disc prolapse</li>
+                        <li class="treatment-list-txt">Compressive Myelopathy</li>
+                        <li class="treatment-list-txt">Vertebral Subluxation</li>
+                        <li class="treatment-list-txt">Acute & chronic low Back Pain & Neck Pain</li>
+                        <li class="treatment-list-txt">Spondylosis</li>
+                        <li class="treatment-list-txt">Upper & lower limb Radiculopathy</li>
+                        <li class="treatment-list-txt">Spinal Nerve Compression</li>
+                        <li class="treatment-list-txt">Shoulder Blade Pain</li>
+                        <li class="treatment-list-txt">Failed Back Surgery Syndrome</li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="right-treatment-section">
+                <div class="image-nurse-1">
+                    <img src="./assets/images/provides/nurse-1.png" alt="image of nurse 1"/>
+                </div>
+                <div class="image-nurse-2">
+                    <img src="./assets/images/provides/nurse-2.png" alt="image of nurse 2"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Treatment provided for end point -->
+
+
+     <!-- Specialities section starting point -->
+    
+     <section class="section-speciality-main-container">
+     <div class="main-container-speciality">
+            <div class="left-section-speciality">
+                <div class="header-speciality">
+                    <h2 class="header-speciality-txt">Our Specialities</h2>
+                    <hr class="header-speciality-txt-horizontal-line">
+                </div>
+                <div class="header-sub-contents">
+                    <p class="header-sub-content-txt-speciality">
+                        We specialize in Advanced Non-Surgical Spinal Decompression Treatment. Our revolutionary approach combines spinal manipulation with cutting-edge technology to address a wide range of spine-related issues.
+                    </p>
+                </div>
+                <div class="specilaities-details-main-box">
+                    <div class="specialities-details-image">
+                        <img src="./assets/images/specilaities/health_and_safety.svg" alt="health and health_and_safety image"/>
+                    </div>
+                    <div class="specialities-details-content">
+                        <div class="specialities-details-content-headidng">
+                            <p class="specialities-details-content-headidng-txt">SAFE & ECONOMICAL</p>
+                        </div>
+                        <div class="specialities-details-content-info-txt">
+                            <p class="specialities-details-content-info-text">Natural Centre offers a safe and economical alternative to traditional surgical nterventions, providing hope to thousands of individuals      experiencing back and neck pain</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="specilaities-details-main-box">
+                    <div class="specialities-details-image">
+                        <img src="./assets/images/specilaities/syringe.svg" alt="health and health_and_safety image"/>
+                    </div>
+                    <div class="specialities-details-content">
+                        <div class="specialities-details-content-headidng">
+                            <p class="specialities-details-content-headidng-txt">SAFE & ECONOMICAL</p>
+                        </div>
+                        <div class="specialities-details-content-info-txt">
+                            <p class="specialities-details-content-info-text">Natural Centre offers a safe and economical alternative to traditional surgical nterventions, providing hope to thousands of individuals      experiencing back and neck pain</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="specilaities-details-main-box">
+                    <div class="specialities-details-image">
+                        <img src="./assets/images/specilaities/biotech.svg" alt="health and health_and_safety image"/>
+                    </div>
+                    <div class="specialities-details-content">
+                        <div class="specialities-details-content-headidng">
+                            <p class="specialities-details-content-headidng-txt">SAFE & ECONOMICAL</p>
+                        </div>
+                        <div class="specialities-details-content-info-txt">
+                            <p class="specialities-details-content-info-text">Natural Centre offers a safe and economical alternative to traditional surgical nterventions, providing hope to thousands of individuals      experiencing back and neck pain</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section-speciality">
+                <div class="right-section-specificity-image">
+                    <img class="img-baby-born" src="./assets/images/specilaities/image 3.png" alt="image of new born baby and doc"/>
+
+                    <div class="outer=play-button-ciricle">
+                        <div class="inner-play-button-circle">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </div>
+     </section>
+
+      <!-- Specialities section end point -->
+
+      <!-- Questions section start point -->
+
+     <section class="question-section-mian-container">
+        <div class="questions-accordin-container">
+            <div class="header-questions">
+                <p class="header-questions-txt">
+                    Frequently Asked
+                </p>
+                <h1 class="question-big-txt">Questions ?</h1>
+                
+            </div>
+
+            <div class="rounder-accordim-box padding-accordim "onclick="toggleAccordion(this)">
+                <div class="accordium-left-content">
+                    <div class="accordim-left-number">
+                        <p class="accordim-left-number-txt">01</p>
+                    </div>
+                    <div class="accordium-left-content-txt">
+                        <p class="accordium-left-content-txt-content">Intervertebral Disc Prolapse</p>
+                    </div>
+                </div>
+                <div class="accordim-right-content">
+                    <img src="./assets/images/questions/add.svg" alt="svg of add icon"/>
+                </div>
+            </div>
+            <div class="accordin-dropdown-content">
+                <p class="accordin-dropdown-content-txt">
+                    Dr. R Ravi research in spine problems has revealed that Spine Subluxation or retrolisthesis is a primary cause of intervertebral disc prolapse, often undetectable during diagnosis. Bony subluxation gradually disrupts the intervertebral disc, weakening the end plate, leading to bulging and compression of the spinal cord and nerves, resulting in radiculopathy. .
+                </p>
+            </div>
+            <div class="rounder-accordim-box padding-accordim "onclick="toggleAccordion(this)">
+                <div class="accordium-left-content">
+                    <div class="accordim-left-number">
+                        <p class="accordim-left-number-txt">01</p>
+                    </div>
+                    <div class="accordium-left-content-txt">
+                        <p class="accordium-left-content-txt-content">Intervertebral Disc Prolapse</p>
+                    </div>
+                </div>
+                <div class="accordim-right-content">
+                    <img src="./assets/images/questions/add.svg" alt="svg of add icon"/>
+                </div>
+            </div>
+            <div class="accordin-dropdown-content">
+                <p class="accordin-dropdown-content-txt">
+                    Dr. R Ravi research in spine problems has revealed that Spine Subluxation or retrolisthesis is a primary cause of intervertebral disc prolapse, often undetectable during diagnosis. Bony subluxation gradually disrupts the intervertebral disc, weakening the end plate, leading to bulging and compression of the spinal cord and nerves, resulting in radiculopathy. .
+                </p>
+            </div>
+            <div class="rounder-accordim-box padding-accordim "onclick="toggleAccordion(this)">
+                <div class="accordium-left-content">
+                    <div class="accordim-left-number">
+                        <p class="accordim-left-number-txt">01</p>
+                    </div>
+                    <div class="accordium-left-content-txt">
+                        <p class="accordium-left-content-txt-content">Intervertebral Disc Prolapse</p>
+                    </div>
+                </div>
+                <div class="accordim-right-content">
+                    <img src="./assets/images/questions/add.svg" alt="svg of add icon"/>
+                </div>
+            </div>
+            <div class="accordin-dropdown-content">
+                <p class="accordin-dropdown-content-txt">
+                    Dr. R Ravi research in spine problems has revealed that Spine Subluxation or retrolisthesis is a primary cause of intervertebral disc prolapse, often undetectable during diagnosis. Bony subluxation gradually disrupts the intervertebral disc, weakening the end plate, leading to bulging and compression of the spinal cord and nerves, resulting in radiculopathy. .
+                </p>
+            </div>
+            <div class="rounder-accordim-box padding-accordim "onclick="toggleAccordion(this)">
+                <div class="accordium-left-content">
+                    <div class="accordim-left-number">
+                        <p class="accordim-left-number-txt">01</p>
+                    </div>
+                    <div class="accordium-left-content-txt">
+                        <p class="accordium-left-content-txt-content">Intervertebral Disc Prolapse</p>
+                    </div>
+                </div>
+                <div class="accordim-right-content">
+                    <img src="./assets/images/questions/add.svg" alt="svg of add icon"/>
+                </div>
+            </div>
+            <div class="accordin-dropdown-content">
+                <p class="accordin-dropdown-content-txt">
+                    Dr. R Ravi research in spine problems has revealed that Spine Subluxation or retrolisthesis is a primary cause of intervertebral disc prolapse, often undetectable during diagnosis. Bony subluxation gradually disrupts the intervertebral disc, weakening the end plate, leading to bulging and compression of the spinal cord and nerves, resulting in radiculopathy. .
+                </p>
+            </div>
+        </div>
+     </section>
+
+
+       <!-- Questions section end point -->
+
+        <!-- Client section begin point -->
+       <section class="client-opinion-main-container">
+        <div class="client-header-section">
+            <div class="client-small-heading">
+                <p class="client-testimonial-txt">Testimonial</p>
+            </div>
+            <div class="clent-large-bold-heading">
+                <h2 class="cliet-says-text">What Our Client Say About Us?</h2>
+            </div>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="testimonial-card-below-main">
+                        <div class="testimonial-card-left">
+                            <div class="inner-circle-testimonial"></div>
+                            <img class="client-image-testimonial-img" src="./assets/images/client/client-1.png" alt="image of client"/>
+                        </div>
+                        <div class="testimonial-right-card-main">
+                            <div class="testimonial-right-content">
+                                <p class="testimonial-right-content-txt">
+                                    I'm working as an Officer in the Karnataka VAO Dept. Since about 10 years I was suffering from Back pain, for which I had undergone various expert Spinal treatments from Allopathic, Ayurveda & Traditional sectors. But even though each time I got reli...
+                                </p>
+                            </div>
+                            <div class="testimonial-right-image">
+                                <img src="./assets/images/client/rosley.png" alt="image of combined bones"/>
+                                <div class="name-and-details">
+                                    <p class="name-client">L. Mershik Raj</p>
+                                    <p class="location-client">Kochi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonial-card-below-main">
+                        <div class="testimonial-card-left">
+                            <div class="inner-circle-testimonial"></div>
+                            <img class="client-image-testimonial-img" src="./assets/images/client/client-1.png" alt="image of client"/>
+                        </div>
+                        <div class="testimonial-right-card-main">
+                            <div class="testimonial-right-content">
+                                <p class="testimonial-right-content-txt">
+                                    I'm working as an Officer in the Karnataka VAO Dept. Since about 10 years I was suffering from Back pain, for which I had undergone various expert Spinal treatments from Allopathic, Ayurveda & Traditional sectors. But even though each time I got reli...
+                                </p>
+                            </div>
+                            <div class="testimonial-right-image">
+                                <img src="./assets/images/client/rosley.png" alt="image of combined bones"/>
+                                <div class="name-and-details">
+                                    <p class="name-client">L. Pathan</p>
+                                    <p class="location-client">Trivandrum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Repeat slides as needed -->
+            </div>
+            <!-- Add Navigation -->
+            <!-- <div class="swiper-btn-left swiper-button-client swiper-button-prev">
+                <img src="./assets/images/client/arrow-left.svg" alt="image for swiper-btn">
+            </div>
+            <div class="swiper-btn-right swiper-button-client swiper-button-next">
+                <img src="./assets/images/client/arrow-right.svg" alt="image for swiper-btn">
+            </div> -->
+        </div>
+    </section>
+
+         <!-- Client Optionion section end point -->
+
+
+           <!-- Footer section Start point -->
+            <footer class="footer-main-container">
+                <div  class="footer-contents">
+                    <div class="about-us-ffoter-section">
+                        <div class="footer-heading">
+                            <p class="footer-heading-txt">About Us</p>
+                            <hr class="footer-horizontal-line" />
+                        </div>
+                        <div class="footer-contents">
+                            <p class="footer-contents-txt">
+                                Natural Health Care Centre (QEWW), is an ISO Certified Natural Health centre started in the year 2024 with a vision to cure patients suffering from spine related problems.
+                            </p>
+                        </div>
+                        <div class="footer-socialmedia-logos">
+                            <img src="./assets/images/footer/socialmeda png 1.svg";/>
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="footer-contents">
+                    <div class="about-us-ffoter-section">
+                        <div class="footer-heading">
+                            <p class="footer-heading-txt">Quick Link</p>
+                            <hr class="footer-horizontal-line" />
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Home
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Consultancy
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Home
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Consultancy
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Home
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Consultancy
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Home
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Consultancy
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Home
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Consultancy
+                                </p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+
+                <div  class="footer-contents">
+                    <div class="about-us-ffoter-section">
+                        <div class="footer-heading">
+                            <p class="footer-heading-txt">Open Hours</p>
+                            <hr class="footer-horizontal-line" />
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    Monday to friday
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    8.00 - 20.00
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                   Saturday
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    9.00 - 18.30
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-below-contents-quick">
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                   Monday - Friday
+                                </p>
+                            </div>
+                            <div class="footer-below-contents-quick-left">
+                                <p class="qucik-link-container-txt">
+                                    9.00 - 15.00
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div  class="footer-contents">
+                    <div class="about-us-ffoter-section">
+                        <div class="footer-heading">
+                            <p class="footer-heading-txt">NewsLetter</p>
+                            <hr class="footer-horizontal-line" />
+                        </div>
+                        <div class="footer-contents">
+                            <p class="footer-contents-txt">
+                                Sign up to our Newsletter to receive product updates, 
+                                exclusive discounts, and offers.
+                            </p>
+                        </div>
+                       <div class="sent-message">
+                            <div class="footer-sent-mail">
+                               <p class="footer-sent-mail-txt">Email Address</p>
+                            </div>
+                            <div class="footer-sen-icon">
+                                <img src="./assets/images/footer/send.svg"/>
+                               </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="privacy-section-footer">
+                    <p class="privacy-txt">
+                        Copyright2024     All Rights Reserved by Kenland IT Solutions
+                    </p>
+                </div>
+            </footer>
+
+            <!-- Footer section End point -->
+
+
+    <script src="index.js"></script>
+    <script src="question.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 1,
+        },
+        1024: {
+            slidesPerView: 2,
+        },
+    }
+});
+    </script>
+</body>
+</html>

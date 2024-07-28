@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+.client-opinion-main-container{
+background-image: url('./assets/images/client/client-background.png');
+object-fit: contain;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+padding-bottom: 80px;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+z-index: 20;
+overflow-x: hidden;
+
+}
+.client-header-section{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cliet-says-text{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.testimonial-card-below-main {
+    position: relative;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-card-left {
+    position: relative;
+  
+   
+}
+.left-border-card{
+    border-left: 1px solid #000;
+    padding:  30px ;
+}
+
+.inner-circle-testimonial {
+    position: relative;
+    height: 147px;
+    width: 147px;
+    border-radius: 50%;
+    background-color: #3981ee;
+    z-index: 1;
+
+}
+
+.client-image-testimonial-img {
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    z-index: 2;
+    border: 5px solid#3981ee;
+}
+
+.testimonial-right-content{
+    max-width: 300px;
+    position: relative;
+    margin-left: 80px;
+}
+
+.testimonial-right-card-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 50px;
+}
+
+.testimonial-right-content::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-image: url('./assets/images/client/up-quotes.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.testimonial-right-content::after{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: 0px;  width: 30px;
+    height: 30px;
+    background-image: url('./assets/images/client/down-quotes.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+
+}
+.testimonial-right-content-txt{
+    font-size: 11px;
+}
+
+.name-client{
+    color: #004EC4;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.location-client{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+.swiper-button-client{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    top: 50%;
+    left: 60px;
+}
+
+.swiper-btn-right{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    top: 50%;
+    right: 60px;
+}
+
+
+@media (max-width: 1200px) {
+    .cliet-says-text {
+        font-size: 20px;
+    }
+
+    .testimonial-right-content-txt {
+        font-size: 10px;
+    }
+
+    .name-client {
+        font-size: 12px;
+    }
+
+    .location-client {
+        font-size: 8px;
+    }
+}
+
+/* For medium devices (tablets, 992px and up) */
+@media (max-width: 992px) {
+    .testimonial-card-below-main {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .client-image-testimonial-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .testimonial-right-content {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .swiper-button-client {
+        left: 30px;
+    }
+
+    .swiper-btn-right {
+        right: 30px;
+    }
+}
+
+/* For small devices (landscape phones, 768px and up) */
+@media (max-width: 768px) {
+    .client-opinion-main-container {
+        padding: 20px;
+    }
+
+    .inner-circle-testimonial {
+        height: 100px;
+        width: 100px;
+    }
+
+    .client-image-testimonial-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .testimonial-right-content-txt {
+        font-size: 10px;
+    }
+
+    .swiper-button-client {
+        left: 20px;
+    }
+
+    .swiper-btn-right {
+        right: 20px;
+    }
+}
+
+/* For extra small devices (phones, less than 768px) */
+@media (max-width: 576px) {
+    .client-opinion-main-container {
+        padding: 10px;
+    }
+
+    .testimonial-card-below-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-border-card {
+        padding: 15px;
+    }
+
+    .inner-circle-testimonial {
+        height: 80px;
+        width: 80px;
+    }
+
+    .client-image-testimonial-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial-right-content {
+        margin-left: 0;
+    }
+
+    .testimonial-right-content-txt {
+        font-size: 9px;
+    }
+
+    .name-client {
+        font-size: 12px;
+    }
+
+    .location-client {
+        font-size: 8px;
+    }
+
+    .swiper-button-client,
+    .swiper-btn-right {
+        top: 80%;
+    }
+}

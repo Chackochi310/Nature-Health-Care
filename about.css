@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+
+.about-main-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-firs-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.about-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+
+}
+.image-container-about-cards{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #164289;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-cards-contents-heading{
+    color: #164289;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.about-cards-small-text{
+ text-align: center;
+}
+
+
+/* second */
+
+.second-container-about-us{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 140px;
+}
+
+
+.left-section-about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.welcome-txt{
+    font-weight: 200;
+}
+
+.hospital-name-welcome{
+    color: #164289;
+    font-size: 28px;
+}
+
+.horizontal-line{
+    border: 0;
+    height: 3px;
+    background-color:#164D92;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.left-content-section{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.4px;
+    max-width: 600px;
+
+}
+
+.right-inner-rectangle{
+    width: 264px;
+    height: 321px;
+    background-color: #164D92;
+    border-radius: 40px;
+    position: relative;
+}
+
+.doctor-image-abour-us{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    
+}
+
+.doctor-name-image{
+   
+    margin-top: 50px;
+    color:#164D92;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: -50px;
+    text-align: center;
+}
+
+.doctor-detials-abour-us{
+    max-width: 300px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+
+@media (max-width: 1200px) {
+    .second-container-about-us {
+        gap: 100px;
+    }
+
+    .doctor-name-image {
+        font-size: 16px;
+    }
+
+    .doctor-detials-abour-us {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .second-container-about-us {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .left-section-about-us {
+        align-items: center;
+    }
+
+    .horizontal-line {
+        width: 80%;
+    }
+
+    .right-inner-rectangle {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .doctor-image-abour-us {
+        position: static;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-firs-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hospital-name-welcome {
+        font-size: 24px;
+    }
+
+    .left-content-section {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-cards {
+        max-width: 100%;
+    }
+
+    .about-cards-contents-heading {
+        font-size: 12px;
+    }
+
+    .about-cards-small-text {
+        font-size: 12px;
+    }
+
+    .hospital-name-welcome {
+        font-size: 20px;
+    }
+
+    .left-content-section {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .doctor-name-image {
+        font-size: 14px;
+    }
+
+    .doctor-detials-abour-us {
+        font-size: 12px;
+    }
+}
